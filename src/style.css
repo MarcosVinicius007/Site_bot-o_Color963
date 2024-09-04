@@ -1,0 +1,31 @@
+ 
+body  
+
+{background-color: rgb(14, 12, 15);}
+
+div {
+    color: rgb(223, 16, 16);
+  }
+
+
+
+  body {
+    background-image: url('./img/Botão.Color.png'); /* replace 'image.jpg' with your image file */
+    background-size: cover; /* scale the image to cover the entire background */
+    background-repeat: no-repeat; /* prevent the image from repeating */
+  }
+
+  /* Estilos para telas pequenas */
+@media (max-width: 768px) {
+  /* Estilos aqui */
+}
+
+/* Estilos para telas médias */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Estilos aqui */
+}
+
+/* Estilos para telas grandes */
+@media (min-width: 1025px) {
+  /* Estilos aqui */
+}
